@@ -1,0 +1,113 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+a{
+    display: flex;
+    width: 100%;
+}
+
+.uper-front{
+    display: flex;
+    justify-content: flex-end;
+}
+.uper-thing{
+    margin-right: 15px;
+}
+.uper-front .appli{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 30px;
+}
+
+
+#middle-page{
+    width: 50%;
+    margin: 10% auto auto auto;
+}
+
+.middle-page_yassineimg img{
+    width: 60%;
+    margin-left: 20%;
+}
+.middle-page_input-container{
+    margin-left: 20%;
+    margin-top: 1%;
+}
+
+input[type="text"] {
+    border: none;
+    border-radius: 20px;
+    padding: 13px 0 13px 40px;
+    font-size: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 75%;
+    outline: none;
+}
+
+input[type="text"]:focus {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.fa-magnifying-glass{
+    color: grey;
+    width: 10px;
+    position: relative;
+    left: 25px;
+
+}
+
+.middle-page_input-container svg{
+    position: relative;
+    right: 40px;
+    top: 6px;
+}
+.card-column{
+    display: flex;
+    margin-left: 37.5%;
+    width: 25%;
+    justify-content: space-around;
+}
+.uper-card{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    width: 7%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin-right: 30px
+}
+
+.card img {
+    width: 80%;
+     border-radius: 50%;
+    margin-bottom: 10px;
+    height: 65%;
+}
+
+
+
+.card p {
+    margin: 2px 0 0 0;
+    font-size: 14px;
+    font-weight: normal;
+}
